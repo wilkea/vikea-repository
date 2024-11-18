@@ -1,0 +1,29 @@
+@model IEnumerable<dpcleague_2.Models.Eveniment>
+
+@{
+    ViewData["Title"] = "Evenimente Viitoare";
+}
+
+<h1>Evenimente Viitoare</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Denumire</th>
+            <th>Disciplina</th>
+            <th>Data Început</th>
+            <th>Locația</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Denumire</td>
+                <td>@item.Disciplina</td>
+                <td>@item.DataInceput.ToShortDateString()</td>
+                <td>@item.Locatia</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+<div class="container mb-5">
+    @foreach (var group in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">@group.Origine</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Denumire</th>
+                                <th>Data Creării</th>
+                                <th>Număr Sportivi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var org in group.Organizatii)
+                            {
+                                <tr>
+                                    <td>@org.Denumire</td>
+                                    <td>@org.DataCrearii.ToShortDateString()</td>
+                                    <td>@org.NumarSportivi</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>

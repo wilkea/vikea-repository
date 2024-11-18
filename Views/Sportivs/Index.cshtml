@@ -1,0 +1,100 @@
+﻿@model PaginatedList<dpcleague_2.Models.Sportiv>
+
+@{
+    ViewData["Title"] = "Sportivi";
+}
+
+<h1>Sportivi</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="input-group">
+                <input type="text" name="SearchString" class="form-control" placeholder="Search..." value="@ViewData["CurrentFilter"]" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <select name="organizatieId" class="form-control" asp-items="ViewBag.OrganizatieId" onchange="this.form.submit()">
+                <option value="">All Organizations</option>
+            </select>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NumeSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Nume
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PoreclaSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Porecla
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" 
+                   asp-route-sortOrder="@ViewData["PrenumeSortParm"]" 
+                   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                   asp-route-organizatieId="@ViewData["CurrentOrganizatie"]">
+                    Prenume
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["OrganizatieSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                    Organizatie
+                </a>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nume</td>
+                <td>@item.Porecla</td>
+                <td>@item.Prenume</td>
+                <td>@item.Organizatie?.Denumire</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.SportivId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.SportivId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.SportivId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="d-flex justify-content-between">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       asp-route-organizatieId="@ViewData["CurrentOrganizatie"]"
+       class="btn btn-primary @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       asp-route-currentFilter="@ViewData["CurrentFilter"]"
+       asp-route-organizatieId="@ViewData["CurrentOrganizatie"]"
+       class="btn btn-primary @nextDisabled">
+        Next
+    </a>
+</div>

@@ -1,0 +1,33 @@
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Detalii Complete Evenimente";
+}
+
+<h1>Detalii Complete Evenimente</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Denumire</th>
+            <th>Disciplina</th>
+            <th>Data Început</th>
+            <th>Locația</th>
+            <th>Bilete Vândute</th>
+            <th>Echipe Participante</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Denumire</td>
+                <td>@item.Disciplina</td>
+                <td>@item.DataInceput.ToShortDateString()</td>
+                <td>@item.Locatia</td>
+                <td>@item.NumarBilete</td>
+                <td>@item.NumarEchipe</td>
+            </tr>
+        }
+    </tbody>
+</table>

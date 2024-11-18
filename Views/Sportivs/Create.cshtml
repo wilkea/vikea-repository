@@ -1,0 +1,67 @@
+﻿@model dpcleague_2.Models.Sportiv
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Sportiv</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nume" class="control-label"></label>
+                <input asp-for="Nume" class="form-control" />
+                <span asp-validation-for="Nume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prenume" class="control-label"></label>
+                <input asp-for="Prenume" class="form-control" />
+                <span asp-validation-for="Prenume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNasterii" class="control-label"></label>
+                <input asp-for="DataNasterii" class="form-control" />
+                <span asp-validation-for="DataNasterii" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrganizatieId" class="control-label"></label>
+                <select asp-for="OrganizatieId" class="form-control" asp-items="ViewBag.OrganizatieId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Porecla" class="control-label"></label>
+                <input asp-for="Porecla" class="form-control" />
+                <span asp-validation-for="Porecla" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Roster</label>
+                <select asp-for="RosterId" class="form-control" asp-items="ViewBag.RosterId">
+                    <option value="">-- Select Roster --</option>
+                </select>
+            </div>
+            <input type="hidden" id="rostersData" value="@ViewBag.RostersData" />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/js/rosterValidation.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const organizatieSelect = document.getElementById('OrganizatieId');
+            const rosterSelect = document.getElementById('RosterId');
+            initializeRosterValidation(organizatieSelect, rosterSelect);
+        });
+    </script>
+}

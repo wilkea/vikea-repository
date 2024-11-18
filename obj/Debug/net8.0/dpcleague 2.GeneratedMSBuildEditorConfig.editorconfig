@@ -1,0 +1,243 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dpcleague_2
+build_property.RootNamespace = dpcleague_2
+build_property.ProjectDir = C:\Users\admin\source\repos\dpcleague 2\dpcleague 2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\admin\source\repos\dpcleague 2\dpcleague 2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Bilets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Bilets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Bilets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Bilets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Bilets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Eveniments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmltZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Eveniments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmltZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Eveniments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmltZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Eveniments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmltZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Eveniments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbmltZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/EventPlayers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRQbGF5ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/EventFullDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxFdmVudEZ1bGxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/EventsByDiscipline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxFdmVudHNCeURpc2NpcGxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/OrganizationRosters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxPcmdhbml6YXRpb25Sb3N0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/OrganizationsByOrigin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxPcmdhbml6YXRpb25zQnlPcmlnaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/PlayerAgeStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxQbGF5ZXJBZ2VTdGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/PlayersAndTeams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxQbGF5ZXJzQW5kVGVhbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/PopularEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxQb3B1bGFyRXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/TicketStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxUaWNrZXRTdGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/TopOrganizations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxUb3BPcmdhbml6YXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/interogari/UpcomingEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW50ZXJvZ2FyaVxVcGNvbWluZ0V2ZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Organizaties/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Organizaties/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Organizaties/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Organizaties/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Organizaties/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemF0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterEveniments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyRXZlbmltZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterEveniments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyRXZlbmltZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterEveniments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyRXZlbmltZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterEveniments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyRXZlbmltZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterEveniments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyRXZlbmltZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterSportivs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyU3BvcnRpdnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterSportivs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyU3BvcnRpdnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterSportivs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyU3BvcnRpdnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterSportivs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyU3BvcnRpdnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/RosterSportivs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyU3BvcnRpdnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Rosters/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Rosters/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Rosters/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Rosters/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Rosters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9zdGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Sportivs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRpdnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Sportivs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRpdnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Sportivs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRpdnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Sportivs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRpdnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Sportivs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRpdnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/source/repos/dpcleague 2/dpcleague 2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qp6hl8ayz6

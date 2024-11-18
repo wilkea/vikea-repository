@@ -1,0 +1,85 @@
+﻿@model PaginatedList<dpcleague_2.Models.Eveniment>
+
+@{
+    ViewData["Title"] = "Evenimente";
+}
+
+<div class="content-header">
+    <h1>Evenimente</h1>
+    <a asp-action="Create" class="create-new-link btn btn-primary">Create New</a>
+</div>
+
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="SearchString" class="form-control" placeholder="Search events..." value="@ViewData["CurrentFilter"]" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DenumireSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                        Denumire
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DisciplinaSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                        Disciplina
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DataSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                        Data Inceput
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index" asp-route-sortOrder="@ViewData["LocatiaSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">
+                        Locatia
+                    </a>
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Denumire)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Disciplina)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DataInceput)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Locatia)</td>
+                    <td class="table-actions">
+                        <a asp-action="Edit" asp-route-id="@item.EvenimentId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.EvenimentId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.EvenimentId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="d-flex justify-content-between mt-3">
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-secondary @prevDisabled">
+        Previous
+    </a>
+    <a asp-action="Index"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-secondary @nextDisabled">
+        Next
+    </a>
+</div>

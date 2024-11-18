@@ -1,0 +1,42 @@
+﻿@model IEnumerable<dpcleague_2.Models.RosterSportiv>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Roster)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sportiv)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Roster.Disciplina) - 
+                @Html.DisplayFor(modelItem => item.Roster.Organizatie.Denumire)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sportiv.Nume)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RosterSportivId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RosterSportivId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RosterSportivId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

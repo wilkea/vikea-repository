@@ -1,0 +1,51 @@
+@model IEnumerable<dpcleague_2.Models.Sportiv>
+
+@{
+    ViewData["Title"] = "Event Players";
+}
+
+<h1>Event Players</h1>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="form-group">
+                <label class="mr-2">Select Event:</label>
+                <select name="evenimentId" class="form-control" asp-items="ViewBag.Evenimente" onchange="this.form.submit()">
+                    <option value="">-- Select Event --</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nume</th>
+                <th>Nickname</th>
+                <th>Familie</th>
+                <th>Organizatie</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var player in Model)
+            {
+                <tr>
+                    <td>@player.Nume</td>
+                    <td>@player.Porecla</td>
+                    <td>@player.Prenume</td>
+                    <td>@player.Organizatie?.Denumire</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Context.Request.Query.ContainsKey("evenimentId"))
+{
+    <div class="alert alert-info">
+        No players found for this event.
+    </div>
+} 
